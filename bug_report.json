@@ -1,1 +1,20 @@
-
+{
+"Severity": "Minor",
+"Environment": {
+"Win 10": "OPERA (Chromium core: 97)",
+"MacOs Ventura 13.3.1": "Safari Version 16.4 (18615.1.26.11.23)"
+},
+"Title": "All the logos are shifted and cut off in the Partners’ banner of the page 'Qwerty' if Z license is selected",
+"Steps": {
+"1": "Navigate to example.com",
+"2": "Scroll down to the footer",
+"3": "Click on the link [See more]",
+"4": "Scroll down to the Partners’ banner and to the block 'Payment methods'"
+},
+"Expected Result": "All the logos are center-aligned and not cut off in the Partners’ banner",
+"Actual Result": "All the logos are shifted and cut off in the Partners’ banner",
+"Link": "Link",
+"License": "X",
+"Role": "All",
+"Bug started": "@mrfurrypants"
+}
